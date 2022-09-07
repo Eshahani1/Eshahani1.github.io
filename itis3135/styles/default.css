@@ -15,6 +15,13 @@ body{
 footer{
     text-align: center;
     color: #f64c72;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    color:#f64c72;
+    text-decoration: none;
 }
 
 nav{
