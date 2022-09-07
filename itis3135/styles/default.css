@@ -13,6 +13,7 @@ body{
 }
 
 footer{
+    font-family: 'Courier New', monospace;
     text-align: center;
     color: #f64c72;
     text-decoration: none;
@@ -23,12 +24,14 @@ ul{
 }
 
 header{
+    font-family: 'Courier New', monospace;
     text-align: center;
     color:#f64c72;
     text-decoration: none;
 }
 
 nav{
+    font-family: 'Courier New', monospace;
     text-align: center;
     margin: 20px 0 0 ;
     padding: 10px 0;
@@ -52,6 +55,7 @@ nav{
 }
 
 .validator{
+    font-family: 'Courier New', monospace;
     text-decoration: none;
 }
 
