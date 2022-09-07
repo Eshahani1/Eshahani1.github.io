@@ -38,10 +38,10 @@ nav{
     text-align: center;
 }
 
-.img{
-    max-width: 1000px;
-    max-height: 1000px;
-}
+.picture {
+    width: 1125px;
+    height: 1002px;
+  }
 
 .imgcenter{
     display: block;
