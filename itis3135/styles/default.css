@@ -50,17 +50,6 @@ nav{
     text-decoration: none;
 }
 
-nav a:link{
-    color: #f64c72;
-}
-
-nav a:visited{
-    color: #f64c72;
-}
-
-nav a:hover{
-    color: #f64c72;
-}
 
 nav{
     font-size: 25px;
