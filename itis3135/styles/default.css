@@ -38,15 +38,15 @@ nav{
 }
 
 nav a:link{
-    color: #332861;
+    color: #f64c72;
 }
 
 nav a:visited{
-    color: #a5a4ac;
+    color: #f64c72;
 }
 
 nav a:hover{
-    color: #46525e;
+    color: #f64c72;
 }
 
 nav{
