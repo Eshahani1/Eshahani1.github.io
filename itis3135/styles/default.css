@@ -88,9 +88,23 @@ nav{
 }
 
 table, th, td{
+    color: lightpink;
+    margin-right: auto;
     border: 1px solid;
     text-align: center;
-    width: 50%;
     margin-left: auto;
-    margin-right: auto;
   }
+
+th{
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+table tr:nth-child(even){
+    background-color: darkcyan;
+}
+
+table tr:nth-child(odd){
+    background-color: lightcyan;
+}
+
