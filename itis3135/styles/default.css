@@ -72,3 +72,8 @@ nav a:hover{
 nav{
     font-size: 25px;
 }
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+  }
