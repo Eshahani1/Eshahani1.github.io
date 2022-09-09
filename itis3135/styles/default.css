@@ -44,6 +44,10 @@ figcaption{
     text-align: center;
 }
 
+.figquote{
+    text-align: left;
+}
+
 nav{
     font-family: 'Courier New', monospace;
     text-align: center;
