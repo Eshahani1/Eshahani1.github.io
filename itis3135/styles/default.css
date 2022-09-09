@@ -80,6 +80,8 @@ nav{
 }
 
 table, th, td{
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid;
     text-align: center;
     width: 50%;
