@@ -73,7 +73,17 @@ nav{
     font-size: 25px;
 }
 
-table, th, td {
+table{
+    border: 1px solid;
+    text-align: center;
+  }
+
+  th{
+    border: 1px solid;
+    text-align: center;
+  }
+
+  td{
     border: 1px solid;
     text-align: center;
   }
