@@ -75,8 +75,6 @@ nav{
 
 table, th, td{
     border: 1px solid;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     width: 75%;
   }
