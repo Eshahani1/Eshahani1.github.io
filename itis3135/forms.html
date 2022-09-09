@@ -31,16 +31,52 @@
             Fill out the form with your contact information
           </h3>
           <form>
-            <label>First Name: <input type="text" fname="First Name" placeholder="First Name" maxlength="30" required></label>
+            <label>
+              First Name: <input type="text" fname="First Name" placeholder="First Name" maxlength="30" required>
+            </label>
             <br>
-            <label>Last Name: <input type="text" lname="Last Name" placeholder="Last Name" maxlength="30" required></label>
+            <label>
+              Last Name: <input type="text" lname="Last Name" placeholder="Last Name" maxlength="30" required>
+            </label>
             <br>
-            <label>Email Address: <input type="text" email="email" placeholder="email" maxlength="30" required></label>
+            <label>
+              Email Address: <input type="text" email="email" placeholder="email" maxlength="30" required>
+            </label>
             <br>
-            <label>Gender:</label>
-            <label>Male<input type="radio" id="male" name="gender" required></label>
-            <label>Female<input type="radio" id="female" name="gender" required></label>
-            <label>Prefer Not to Say<input type="radio" id="PNS" name="gender" required></label>
+            <label>
+              Gender:
+            </label>
+            <label>
+              Male<input type="radio" id="male" name="gender" required>
+            </label>
+            <label>
+              Female<input type="radio" id="female" name="gender" required>
+            </label>
+            <label>
+              Prefer Not to Say<input type="radio" id="PNS" name="gender" required>
+            </label>
+            <br>
+            <label>
+              How many times have you visited this site? <input type="number" name="#visited" placeholder="visited" required>
+            </label>
+            <legend>Where did you find this website from?</legend>
+            <label>
+              <input value="social-media" id="social-media" type="checkbox" name="source">Social Media
+            </label>
+            <br>
+            <label>
+              <input value="linked_in" id="linked_in" type="checkbox" name="source">Linked-In
+            </label>
+            <br>
+            <label>
+              <input value="resume" id="resume" type="checkbox" name="source">Resume
+            </label>
+            <br>
+            <label>
+              <input value="none_of" id="none_of" type="checkbox" name="source">None of the above
+            </label>
+          </fieldset>
+    
           </form>
         </main>
         <footer>
