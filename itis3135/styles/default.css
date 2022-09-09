@@ -7,7 +7,7 @@ h1, h2{
 }
 
 h3{
-    text-align: left;
+    text-align: center;
     font-family: 'Courier New', monospace;
     color: #f64c72;  
 }
@@ -23,6 +23,10 @@ footer{
     text-align: center;
     color: #f64c72;
     text-decoration: none;
+}
+
+.list{
+    text-align: center;
 }
 
 ul{
