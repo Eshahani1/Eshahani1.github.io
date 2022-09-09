@@ -91,4 +91,6 @@ table, th, td{
     border: 1px solid;
     text-align: center;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
