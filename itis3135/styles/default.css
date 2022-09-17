@@ -133,3 +133,27 @@ input[type=text] {
         text-align: center;
         list-style-position: inside;
   }
+
+  a:link {
+    color: #f64c72;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #f64c72;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f64c72;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #f64c72;
+    background-color: transparent;
+    text-decoration: underline;
+  }
