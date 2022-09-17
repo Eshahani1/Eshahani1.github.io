@@ -129,3 +129,7 @@ input[type=text] {
     width: 50%;
   }
 
+  .center{
+        text-align: center;
+        list-style-position: inside;
+  }
