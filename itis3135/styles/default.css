@@ -157,3 +157,7 @@ input[type=text] {
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .center{
+      text-align: center;
+  }
