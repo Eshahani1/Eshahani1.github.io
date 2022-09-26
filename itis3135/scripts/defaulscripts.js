@@ -9,3 +9,17 @@ function welcoming_user(){
     alert("The ES welcomes you, " + first + "." + " we're glad you are doing " + mood + "!");
 }
 
+function diplay_date(){
+    date =  new Date();
+    date2 = new Date();
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+    seconds = date2.getSeconds();
+    minutes = date2.getMinutes();
+    hours = date2.getHours();
+    document.getElementById("current_date").innerHTML = "The current date is: " + month + "/" + day + "/" + year;
+    document.getElementById("current_date").innerHTML = "The current time is: " + hours + ":" + minutes + ":" + seconds;
+}
+
+
