@@ -4,9 +4,8 @@ function scriptTest(){
 
 function welcoming_user(){
     document.getElementById("question").submit();
-    var first = data.get('first').value;
-    var mood = data.get('mood').value;
+    var first = data.getElementById('first_name').value;
+    var mood = data.getElementById('mood').value;
     var message = "The ES welcomes you, " + first + "." +  " We're glad you are doing " + mood + "!" 
-    document.getElementById("output_of_website").innerHTML = "";
     alert(message);
 }
