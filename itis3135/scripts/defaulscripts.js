@@ -4,5 +4,7 @@ function scriptTest(){
 
 function welcoming_user(){
     document.getElementById("question").submit();
-    document.getElementById("question").innerHTML = "Welcome" + first_name + ", we are glad you are feeling " + mood + " today";
+    first = data.get('first').value;
+    mood = data.get('mood').value;
+    document.getElementById("output_of_website").innerHTML = "The ES welcomes you, " + first + "." +  " We're glad you are doing " + mood + "!";
 }
