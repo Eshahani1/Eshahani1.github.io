@@ -10,7 +10,7 @@ function welcoming_user(){
 
 
 
-/*function diplay_date(){
+function diplay_date(){
     date =  new Date();
     date2 = new Date();
     year = date.getFullYear();
@@ -21,6 +21,6 @@ function welcoming_user(){
     hours = date2.getHours();
     document.getElementById("current_date").innerHTML = "The current date is: " + month + "/" + day + "/" + year;
     document.getElementById("current_date").innerHTML = "The current time is: " + hours + ":" + minutes + ":" + seconds;
-}*/
+}
 
 
