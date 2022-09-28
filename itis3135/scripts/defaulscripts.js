@@ -9,6 +9,8 @@ function welcoming_user(){
     document.getElementById("answers").innerHTML = ("The ES welcomes you, " + first + "." + " we're glad you are doing " + mood + "!");
 }
 
+
+
 /*function diplay_date(){
     date =  new Date();
     date2 = new Date();
