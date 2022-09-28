@@ -11,7 +11,7 @@ function welcoming_user(){
 function display_date(){
     let today = new Date().toLocaleDateString();
     let today2 = new Date().toLocaleTimeString();
-    document.getElementById("current_date").innerHTML = ("The current Date is: " + today + " the local time is: " + today2);
+    document.getElementById("current_date").innerHTML = ("The current Date is: " + today + " The local time is: " + today2);
 }
 
 
