@@ -8,8 +8,6 @@ function welcoming_user(){
     document.getElementById("answers").innerHTML = ("The ES welcomes you, " + first + "." + " we're glad you are doing " + mood + "!");
 }
 
-
-
 function display_date(){
     let today = new Date().toLocaleDateString();
     let today2 = new Date().toLocaleTimeString();
