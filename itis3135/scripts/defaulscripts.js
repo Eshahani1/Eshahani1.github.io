@@ -4,12 +4,12 @@ function scriptTest(){
 
 function welcoming_user(){
     document.getElementById("question").submit();
-    var first = document.getElementById('first_name').value;
-    var mood = document.getElementById('mood').value;
-    alert("The ES welcomes you, " + first + "." + " we're glad you are doing " + mood + "!");
+    let first = document.getElementById('first_name').value;
+    let mood = document.getElementById('mood').value;
+    document.getElementById.innerHTML = ("The ES welcomes you, " + first + "." + " we're glad you are doing " + mood + "!");
 }
 
-function diplay_date(){
+/*function diplay_date(){
     date =  new Date();
     date2 = new Date();
     year = date.getFullYear();
@@ -20,6 +20,6 @@ function diplay_date(){
     hours = date2.getHours();
     document.getElementById("current_date").innerHTML = "The current date is: " + month + "/" + day + "/" + year;
     document.getElementById("current_date").innerHTML = "The current time is: " + hours + ":" + minutes + ":" + seconds;
-}
+}*/
 
 
