@@ -13,12 +13,12 @@ function welcoming_user(){
 function diplay_date(){
     date =  new Date();
     date2 = new Date();
-    year = date.getFullYear();
-    month = date.getMonth() + 1;
-    day = date.getDate();
-    seconds = date2.getSeconds();
-    minutes = date2.getMinutes();
-    hours = date2.getHours();
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    let seconds = date2.getSeconds();
+    let minutes = date2.getMinutes();
+    let hours = date2.getHours();
     document.getElementById("current_date").innerHTML = "The current date is: " + month + "/" + day + "/" + year;
     document.getElementById("current_date").innerHTML = "The current time is: " + hours + ":" + minutes + ":" + seconds;
 }
