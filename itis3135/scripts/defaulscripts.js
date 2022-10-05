@@ -14,4 +14,11 @@ function display_date(){
     document.getElementById("current_date").innerHTML = ("The current Date is: " + today + " The local time is: " + today2);
 }
 
+function simpleAddition(){
+    let first_number = document.getElementById("first_number").value;
+    let second_number = document.getElementById("second_number").value;
+    let answer = (first_number + second_number);
+    document.getElementById("first_function_answer").innerHTML = ("Adding both numbers you get: " + answer);
+}
+
 
