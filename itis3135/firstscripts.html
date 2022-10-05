@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-          Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | First Scripts
-        </title>
-        <link href = "styles/default.css" rel = "stylesheet">
-    </head>
-    <body onload="display_date()">
-        <header>
-            <h1>
-              Eyaan Shahani's | Elaborate Sunfish | ITIS 3135 | First Scripts
-            </h1>
-            <nav>
-              <a href ="./">Home</a>
-              |
-              <a href ="introduction.html">Introduction</a>
-              |
-              <a href = "tables.html">Tables</a>
-              |
-              <a href = "forms.html">Form</a>
-              |
-              <a href = "contract.html">Contract</a>
-              |
-              <a href = "stuff/You:Know it.htm">Crappy Webpage</a>
-              |
-              <a href = "website_evaluations.html">CRAP</a>
-              |
-              <a href = "firstscripts.html">First Scripts</a>
-            </nav>
-        </header>
-        <main>
-            <h2>
-                First Scripts
-            </h2>
 
-            <p id = "current_date">
-            </p>
+  <head>
+    <title>
+      Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | First Scripts
+    </title>
+    <link href="styles/default.css" rel="stylesheet">
+  </head>
 
-            <!--<input type = "button" onclick = "scriptTest()" value = "Display">-->
-            <p>Submit your information below</p>
-            <form id="question">
-              What is your first name: <input type="text" name="first_name" id="first_name"><br>
-              What is your Mood: <input type="text" name="mood" id="mood"><br><br>
-              <button onclick="welcoming_user()" type='button'>Submit</button> 
-            </form>
-            
-            <p id = "answers">Simple addition function</p>
-            <form id="first_function">
-            What is your first number: <input type="text" name="first_number" id="first_number"><br>
-            What is your second number: <input type="text" name="second_number" id="second_number"><br><br>
-            <button type='button' onclick="simpleAddition()">Simple Addition</button>
-            </form>
-            <p id="first_function_answer"></p>
+  <body onload="display_date()">
+    <header>
+      <h1>
+        Eyaan Shahani's | Elaborate Sunfish | ITIS 3135 | First Scripts
+      </h1>
+      <nav>
+        <a href="./">Home</a>
+        |
+        <a href="introduction.html">Introduction</a>
+        |
+        <a href="tables.html">Tables</a>
+        |
+        <a href="forms.html">Form</a>
+        |
+        <a href="contract.html">Contract</a>
+        |
+        <a href="stuff/You:Know it.htm">Crappy Webpage</a>
+        |
+        <a href="website_evaluations.html">CRAP</a>
+        |
+        <a href="firstscripts.html">First Scripts</a>
+      </nav>
+    </header>
+    <main>
+      <h2>
+        First Scripts
+      </h2>
+
+      <p id="current_date">
+      </p>
+
+      <!--<input type = "button" onclick = "scriptTest()" value = "Display">-->
+      <p>Submit your information below</p>
+      <form id="question">
+        What is your first name: <input type="text" name="first_name" id="first_name"><br>
+        What is your Mood: <input type="text" name="mood" id="mood"><br><br>
+        <button onclick="welcoming_user()" type='button'>Submit</button>
+      </form>
+
+      <p id="answers">
+        <bold>Simple addition function</bold>
+      </p>
+      <form id="first_function">
+        What is your first number: <input type="text" name="first_number" id="first_number"><br>
+        What is your second number: <input type="text" name="second_number" id="second_number"><br>
+        <p id="first_function_answer"></p>
+        <button type='button' onclick="simpleAddition()">Simple Addition</button>
+
+      </form>
 
 
-        </main>
-        <footer>
-          <nav>
-            <a href ="https://www.freecodecamp.org/eshahani">Free Code Camp</a>
-            |
-            <a href ="https://www.codecademy.com/profiles/eshahani">Code Academy</a>
-            |
-            <a href ="https://github.com/Eshahani1">Github Profile Page</a>
-            |
-            <a href ="https://github.com/Eshahani1/Eshahani1.github.io">Github Repository</a>
-            |
-            <a href = "https://webpages.charlotte.edu/eshahani/itis3135/">UNCC Webpage</a>
-          </nav>
-          <br>
-          Designed by <a href = "dolphinshahanillc.co">Dolphin Shahani LLC © 2022</a>
-          <p>
-            <a href="https://validator.w3.org/check?uri=referer">
-              <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
-            </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-              <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
-            </a>
-          </p>
+    </main>
+    <footer>
+      <nav>
+        <a href="https://www.freecodecamp.org/eshahani">Free Code Camp</a>
+        |
+        <a href="https://www.codecademy.com/profiles/eshahani">Code Academy</a>
+        |
+        <a href="https://github.com/Eshahani1">Github Profile Page</a>
+        |
+        <a href="https://github.com/Eshahani1/Eshahani1.github.io">Github Repository</a>
+        |
+        <a href="https://webpages.charlotte.edu/eshahani/itis3135/">UNCC Webpage</a>
+      </nav>
+      <br>
+      Designed by <a href="dolphinshahanillc.co">Dolphin Shahani LLC © 2022</a>
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer">
+          <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
+        </a>
+      </p>
 
-        </footer>
-        <script src = "scripts/defaulscripts.js"></script>
-    </body>
+    </footer>
+    <script src="scripts/defaulscripts.js"></script>
+  </body>
+
 </html>
