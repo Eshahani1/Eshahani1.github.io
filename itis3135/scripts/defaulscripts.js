@@ -17,7 +17,7 @@ function display_date(){
 function simpleAddition(){
     //let first_number = document.getElementById("first_number").value;
     //let second_number = document.getElementById("second_number").value;
-    let answer = (document.getElementById("first_number").value + document.getElementById("second_number").value);
+    let answer = (document.getElementById("first_number").valueAsNumber + document.getElementById("second_number").valueAsNumber);
     document.getElementById("first_function_answer").innerHTML = ("Adding both numbers you get: " + answer);
 }
 
