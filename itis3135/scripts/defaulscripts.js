@@ -26,4 +26,18 @@ function simpleSubtraction() {
   let answer = first_number - second_number;
   document.getElementById("second_function_answer").innerHTML = ("Subtracting both numbers you get: " + answer);
 }
+function simpleMultiplication() {
+  let first_number = document.getElementById("first_number_mul").value;
+  let second_number = document.getElementById("second_number_mul").value;
+  let answer = first_number * second_number;
+  document.getElementById("third_function_answer").innerHTML = ("Multiplying both numbers you get: " + answer);
+}
+function simpleDivision() {
+  let first_number = document.getElementById("first_number_div").value;
+  let second_number = document.getElementById("second_number_div").value;
+  let answer = first_number / second_number;
+  document.getElementById("fourth_function_answer").innerHTML = ("Dividing the first number by the second you get: " + answer);
+}
+
+
 
