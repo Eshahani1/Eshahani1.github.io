@@ -20,5 +20,11 @@ function scriptTest() {
     let answer = (Number(first_number) + Number(second_number));
     document.getElementById("first_function_answer").innerHTML = ("Adding both numbers you get: " + answer);
   }
+  function simpleSubtraction() {
+    let first_number = document.getElementById("first_number").value;
+    let second_number = document.getElementById("second_number").value;
+    let answer = (Number(first_number) - Number(second_number));
+    document.getElementById("second_function_answer").innerHTML = ("Subtracting both numbers you get: " + answer);
+  }
   
   
