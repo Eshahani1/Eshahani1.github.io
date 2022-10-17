@@ -21,8 +21,8 @@ function scriptTest() {
     document.getElementById("first_function_answer").innerHTML = ("Adding both numbers you get: " + answer);
   }
   function simpleSubtraction() {
-    let first_number = document.getElementById("first_number").value;
-    let second_number = document.getElementById("second_number").value;
+    let first_number = document.getElementById("first_number_sub").value;
+    let second_number = document.getElementById("second_number_sub").value;
     let answer = first_number - second_number;
     document.getElementById("second_function_answer").innerHTML = ("Subtracting both numbers you get: " + answer);
   }
