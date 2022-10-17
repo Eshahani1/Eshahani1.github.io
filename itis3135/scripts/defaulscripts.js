@@ -23,7 +23,7 @@ function scriptTest() {
   function simpleSubtraction() {
     let first_number = document.getElementById("first_number").value;
     let second_number = document.getElementById("second_number").value;
-    let answer = (Number(first_number) - Number(second_number));
+    let answer = first_number - second_number;
     document.getElementById("second_function_answer").innerHTML = ("Subtracting both numbers you get: " + answer);
   }
   
