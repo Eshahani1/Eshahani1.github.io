@@ -1,67 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-          Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | Home
-        </title>
-    </head>
-    <style>
-      .center{
-        text-align: center;
-      }
-      
-    </style>
-    <body>
-        <header class="center">
-            <h1>
-              Eyaan Shahani's | Elaborate Sunfish | ITIS 3135 | Hobby 
-            </h1>
-            <nav>
-              <a href ="./">Home</a>
-              |
-              <a href ="introduction.html">Introduction</a>
-              |
-              <a href = "tables.html">Tables</a>
-              |
-              <a href = "forms.html">Form</a>
-              |
-              <a href = "contract.html">Contract</a>
-              |
-              <a href = "stuff/You:Know it.htm">Crappy Webpage</a>
-              |
-              <a href = "website_evaluations.html">CRAP</a>
-              |
-              <a href = "firstscripts.html">First Scripts</a>
-            </nav>
-        </header>
-        <main>
-            <h2>
-              hi
-            </h2>
-        </main>
-        <footer class="center">
-          <nav>
-            <a href ="https://www.freecodecamp.org/eshahani">Free Code Camp</a>
-            |
-            <a href ="https://www.codecademy.com/profiles/eshahani">Code Academy</a>
-            |
-            <a href ="https://github.com/Eshahani1">Github Profile Page</a>
-            |
-            <a href ="https://github.com/Eshahani1/Eshahani1.github.io">Github Repository</a>
-            |
-            <a href = "https://webpages.charlotte.edu/eshahani/itis3135/">UNCC Webpage</a>
-          </nav>
-          <br>
-            Designed by <a href = "dolphinshahanillc.co">Dolphin Shahani LLC © 2022</a>
-          <p>
-            <a href="https://validator.w3.org/check?uri=referer">
-              <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML website">
-            </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-              <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS website">
-            </a>
-          </p>
+  <head>
+    <title> Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | Home </title>
+  </head>
+  <style>
+    .center {
+      text-align: center;
+    }
 
-        </footer>
-    </body>
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+  <body>
+    <header class="center">
+      <h1> Eyaan Shahani's | Elaborate Sunfish | ITIS 3135 | Hobby </h1>
+      <nav>
+        <a href="./">Home</a> | <a href="introduction.html">Introduction</a> | <a href="tables.html">Tables</a> | <a href="forms.html">Form</a> | <a href="contract.html">Contract</a> | <a href="stuff/You:Know it.htm">Crappy Webpage</a> | <a href="website_evaluations.html">CRAP</a> | <a href="firstscripts.html">First Scripts</a>
+      </nav>
+    </header>
+    <br>
+    <main>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+        <button class="tablinks" onclick="openCity(event, 'Who')">Who</button>
+        <button class="tablinks" onclick="openCity(event, 'What')">What</button>
+        <button class="tablinks" onclick="openCity(event, 'When')">When</button>
+        <button class="tablinks" onclick="openCity(event, 'Where')">Where</button>
+      </div>
+      <div id="Home" class="tabcontent">
+        <h2>Hone</h2>
+        <p>This is the home page</p>
+      </div>
+      <div id="Who" class="tabcontent">
+        <h3>Who</h3>
+        <p>This is the second page</p>
+      </div>
+      <div id="What" class="tabcontent">
+        <h3>What</h3>
+        <p>This is the third page</p>
+      </div>
+      <div id="When" class="tabcontent">
+        <h2>When</h2>
+        <p>This is the 4th page</p>
+      </div>
+      <div id="Where" class="tabcontent">
+        <h2>Where</h2>
+        <p>This is the fifth page</p>
+      </div>
+    </main>
+    <footer class="center">
+      <nav>
+        <a href="https://www.freecodecamp.org/eshahani">Free Code Camp</a> | <a href="https://www.codecademy.com/profiles/eshahani">Code Academy</a> | <a href="https://github.com/Eshahani1">Github Profile Page</a> | <a href="https://github.com/Eshahani1/Eshahani1.github.io">Github Repository</a> | <a href="https://webpages.charlotte.edu/eshahani/itis3135/">UNCC Webpage</a>
+      </nav>
+      <br> Designed by <a href="dolphinshahanillc.co">Dolphin Shahani LLC © 2022</a>
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer">
+          <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML website">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS website">
+        </a>
+      </p>
+    </footer>
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
 </html>
