@@ -8,7 +8,7 @@
     <link href="styles/default.css" rel="stylesheet">
   </head>
 
-  <body onload="display_date()">
+  <body onload="getTodaysDate()">
     <div data-include="components/header.html"></div>
     <main>
       <h2>
@@ -23,7 +23,7 @@
       <form id="question">
         What is your first name: <input type="text" name="first_name" id="first_name"><br>
         What is your Mood: <input type="text" name="mood" id="mood"><br><br>
-        <button onclick="welcoming_user()" type='button' >Submit</button>
+        <button onclick="promptUser()" type='button' >Submit</button>
         <p id = "answers"></p>
       </form>
 
