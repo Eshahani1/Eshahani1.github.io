@@ -132,6 +132,8 @@ input[type=text] {
   .center{
         text-align: center;
         list-style-position: inside;
+        margin-left: auto;
+        margin-right: auto;
   }
 
   a:link {
