@@ -11,12 +11,13 @@ function displayResults(){
 function displaySalary(){
     for(let i = 0; i<salaries.length; i++){
         sum += salaries[i];
+        sum = sum/salaries.length
         document.getElementById("results").innerHTML = ("The average of the salaries is: " + sum);
     }
 }
 
 function addSalary(){
-    
+
 }
 
 
