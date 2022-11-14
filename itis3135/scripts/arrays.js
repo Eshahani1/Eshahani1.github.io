@@ -1,4 +1,4 @@
-const person = [Eyaan, Jared, Scump];
+const person = ["Eyaan", "Jared", "Scump"];
 const salaries = [10000, 20000, 30000];
 let sum = 0;
 
