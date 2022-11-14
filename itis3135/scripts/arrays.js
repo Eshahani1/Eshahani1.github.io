@@ -16,7 +16,7 @@ function displaySalary(){
 }
 
 function addSalary(){
-
+    
 }
 
 
