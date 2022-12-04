@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-          Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | Arrays
-        </title>
-        <link href = "styles/default.css" rel = "stylesheet">
-    </head>
-    <body>
-      <div data-include="components/header.html"></div>
-        <main>
-            <h2>
-                Arrays
-            </h2>
 
-            <p><strong>Check who the salaries and people in the database are</strong></p>
-            <button onclick="displayResults()">Check</button>
-            <p id ="results"></p>
+  <head>
+    <title>
+      Eyaan Shahani's Elaborate Sunfish | ITIS 3135 | Arrays
+    </title>
+    <link href="styles/default.css" rel="stylesheet">
+  </head>
 
-            <p><strong></strong></p>
-            <button>Check</button>
+  <body>
+    <div data-include="components/header.html"></div>
+    <main>
+      <h2>
+        Arrays
+      </h2>
+      <label for="employee">Employee:</label>
+      <select id="employee" name="employee" required>
+        <option value="" disabled selected>Choose an Employee</option>
+        <option value="Eyaan">Eyaan</option>
+        <option value="Jared">Jared</option>
+        <option value="Shahani">Shahani</option>
+      </select>
+      <label for="salary">Salary: $</label>
+      <input type="number" id="salary" required=""><br>
 
-        </main>
-        <div data-include="components/footer.html"></div>
-        <script src="scripts/HTMLInclude.js"></script>
-        <script src="scripts/arrays.js"></script>
-    </body>
+      <input type="button" id="add_salary" value="Add Salary" class="center">
+      <input type="button" id="display_results" value="Display Results">
+      <input type="button" id="display_salary" value="Display Salary"><br>
+
+      <div id="results"></div>
+      <table id="results_table"></table>
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/arrays.js"></script>
+  </body>
+
 </html>
