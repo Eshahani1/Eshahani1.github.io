@@ -12,10 +12,22 @@
             <h2 class="center">
                 Slideshow
             </h2>
-
+            <div id="slideshow_Container">
+                <h1>Pictures!</h1>
+                <div class="slideshow">
+                <img src="images/picture_of_me.png" width="600" height="300" />
+                <img src="images/regular.jpg" width="600" height="300" />          
+                </div>
+                <ul id="nav">
+                <li id="prev"><a href="#">Previous</a></li>
+                <li id="next"><a href="#">Next</a></li>
+                </ul>
+                </div>
         </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.js"></script>
         <script src="scripts/slideshow.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
     </body>
 </html>
