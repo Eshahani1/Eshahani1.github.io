@@ -299,6 +299,6 @@ input[type=text] {
 }
 
 .slide_picture{
-  width: 600px;
+  width: 100%;
   height: 600px;
 }
