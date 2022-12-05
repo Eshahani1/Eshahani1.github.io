@@ -297,10 +297,3 @@ input[type=text] {
 .footerdot:hover {
     background-color: black;
 }
-
-img {
-  width: 100%;
-}
-.height {
-  height: 10px;
-}
