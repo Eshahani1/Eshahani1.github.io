@@ -297,3 +297,9 @@ input[type=text] {
 .footerdot:hover {
     background-color: black;
 }
+
+.slide_picture{
+  width: 600px;
+  height: 600px;
+
+}
