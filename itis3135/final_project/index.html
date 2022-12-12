@@ -5,6 +5,7 @@
           Shahani Tutoring
         </title>
         <link href = "styles/default.css" rel = "stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
@@ -12,10 +13,67 @@
             <h2>
                 Welcome To Shahani Tutoring
             </h2>
+
+            <p>
+                Hello and welcome to shahani tutoring. On this website you will find multiple pasges that will lead you to tutorials and give you some background in
+                HTML, CSS, and JavaScript. To make sure that you will be fine preforming in this enviorment I will be tutoring you along the way and if you have and questions
+                make sure you contact me through the page that I made!
+            </p>
+
+            <div class="image-container">
+                <div class="slide">
+                  <div class="slideNumber">1</div>
+                  <img src="images/picture_of_me.png" class="slide_picture">
+                </div>
+                <div class="slide">
+                  <div class="slideNumber">2</div>
+                  <img src="images/dolphin_1.jpg" class="slide_picture">
+                </div>
+                <div class="slide">
+                    <div class="slideNumber">3</div>
+                    <img src="images/dolphin_2.jpg" class="slide_picture">
+                  </div>
+                  <div class="slide">
+                    <div class="slideNumber">4</div>
+                    <img src="images/dolphin_3.jpg" class="slide_picture">
+                  </div>
+                  <div class="slide">
+                    <div class="slideNumber">5</div>
+                    <img src="images/dolphin_4.jpg" class="slide_picture">
+                  </div>
+                  <div class="slide">
+                    <div class="slideNumber">6</div>
+                    <img src="images/dolphin_5.jpg" class="slide_picture">
+                  </div>
+        
+                <a class="previous" onclick="moveSlides(-1)">
+                  <i class="fa fa-chevron-circle-left"></i>
+                </a>
+                <a class="next" onclick="moveSlides(1)">
+                  <i class="fa fa-chevron-circle-right"></i>
+                </a>
+              </div>
+              <br>
+        
+              <div style="text-align:center">
+                <span class="footerdot" onclick="activeSlide(1)">
+                </span>
+                <span class="footerdot" onclick="activeSlide(2)">
+                </span>
+                <span class="footerdot" onclick="activeSlide(3)">
+                </span>
+                <span class="footerdot" onclick="activeSlide(4)">
+                </span>
+                <span class="footerdot" onclick="activeSlide(5)">
+                </span>
+                <span class="footerdot" onclick="activeSlide(6)">
+                </span>
+              </div>
         </main>
         <div class="bottom">
             <div data-include="components/footer.html"></div>
         </div>
         <script src="scripts/HTMLInclude.js"></script>
+        <script src="scripts/slideshow.js"></script>
     </body>
 </html>
