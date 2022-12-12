@@ -1,6 +1,10 @@
 *{
     font-family: "Lucida Console", "Courier New", monospace;
+}
 
+body{
+    background-color: #D7CEC7;
+    color: black;
 }
 
 nav{
@@ -8,6 +12,8 @@ nav{
     padding: 10px 0;
     text-align: center;
     font-size: 24px;
+    background-color: white;
+    width: 100%;
 }
 
 .center{
@@ -16,10 +22,18 @@ nav{
     margin-right: auto;
 }
 
-.footer{
+a{
     text-decoration: none;
-    display: table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }
