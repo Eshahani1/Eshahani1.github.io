@@ -70,20 +70,6 @@ a:visited{
     text-align: center;
 }
       
-.slideNumber {
-    background-color: #5574C5;
-    color: white;
-    border-radius: 25px;
-    right: 0;
-    opacity: .5;
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    position: absolute;
-}
 .fa {
     font-size: 32px;
 }
