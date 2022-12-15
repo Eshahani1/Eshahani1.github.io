@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-          Shahani Tutoring
-        </title>
-        <link href = "styles/default.css" rel = "stylesheet">
-    </head>
-    <body>
-        <div data-include="components/header.html"></div>
-        <main>
-            <h2>
-                Learn My Schedule
-            </h2>
-        </main>
-        <div class="bottom">
-            <div data-include="components/footer.html"></div>
-        </div>
-        <script src="scripts/HTMLInclude.js"></script>
-    </body>
+
+  <head>
+    <title>
+      Shahani Tutoring
+    </title>
+    <link href="styles/default.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <div data-include="components/header.html"></div>
+    <main>
+      <h2>
+        Learn My Schedule
+      </h2>
+
+      <section>
+        <dl id="accordion">
+          <dt>Monday</dt>
+          <dd>I will not be available on this day.</dd>
+
+          <dt>Tuesday</dt>
+          <dd>I will be available throught most of the day. Starting from around 12pm - 8pm.</dd>
+
+          <dt>Wednesday</dt>
+          <dd>I will be available throught most of the day. Starting from around 12pm - 8pm.</dd>
+
+          <dt>Thursday</dt>
+          <dd>I will not be available on this day.</dd>
+
+          <dt>Friday</dt>
+          <dd>I will be available throught most of the day. Starting from around 12pm - 8pm.</dd>
+
+          <dt>Saturday</dt>
+          <dd>I will be available throught most of the day. Starting from around 10pm - 8pm.</dd>
+
+          <dt>Sunday</dt>
+          <dd>I will be available throught most of the day. Starting from around 10pm - 8pm.</dd>
+        </dl>
+
+      </section>
+    </main>
+    <div class="bottom">
+      <div data-include="components/footer.html"></div>
+    </div>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/schedule.js"></script>
+  </body>
+
 </html>
