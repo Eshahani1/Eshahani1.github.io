@@ -138,14 +138,14 @@ h2{
     color: #fff;
   }
   
-  input[type="button"] {
+  input[type="submit"] {
     background: #bac675;
     border: 0;
     cursor: pointer;
     color: #3e3d3d;
   }
   
-  input[type="button"]:hover {
+  input[type="submit"]:hover {
     background: #a4b15c;
     transition: .6s;
   }
